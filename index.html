@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Navbar Responsive</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+          </svg></div>
+          
+          
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Produits</a></li>
+            <li><a href="#">Panier</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="burger-menu" onclick="toggleNav()">&#9776;</div>
+    </nav>
+
+    <div class="content">
+        <!-- Le contenu de votre page va ici -->
+        <div class="maclasse"><p><h2>Des fruits et des légumes frais sont disponibles dans ce site. Commandez et Recevez!
+            <br>Avec possibilité de livraison.</h2>
+            <h3>Bienvenue dans notre paradis de saveurs, où la nature s'exprime à travers des fruits et légumes d'une fraîcheur incomparable. Cultivés avec soin, nos produits vous offrent une expérience gustative unique, alliant plaisir et bienfaits pour votre santé.</h3>
+            
+        </p><br>
+    </div><br>
+    
+   
+                        
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="Orange_.jpg" class="card-img-top" alt="...">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Les meilleurs oranges provenants du Maroc son disponibles en gros. <strong>commandez et recevez</strong></p>
+              <button class="btn btn-primary">En savoir plus</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="banane.jpg" class="card-img-top" alt="...">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Des bananes de qualités sont disponibles en gros. <strong>commandez et recevez</strong></p>
+              <button class="btn btn-primary">En savoir plus</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="pomme.jpg" class="card-img-top" alt="...">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Vous recherchez le goût authentique de la nature dans chaque bouchée ? Ne cherchez pas plus loin ! Nos pommes fraîches et juteuses sont la réponse.</p>
+              <button class="btn btn-primary">En savoir plus</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+              <img src="papaye.jpeg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Plongez dans un monde de saveurs tropicales avec nos papayes juteuses et sucrées, directement venues des vergers ensoleillés !</p>
+                <button class="btn btn-primary">En savoir plus</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="Oignon_blanc.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">À la recherche de saveurs subtiles et d'une touche d'élégance dans votre cuisine ? Découvrez nos oignons blancs d'exception, cultivés avec soin pour sublimer chacune de vos créations culinaires.</p>
+                <button class="btn btn-primary">En savoir plus</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="mangue.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Plongez dans l'authenticité des saveurs tropicales avec nos mangues en provenance directe du Sénégal, où le soleil et le savoir-faire artisanal se conjuguent pour vous offrir une expérience gustative unique.</p>
+                <button class="btn btn-primary">En savoir plus</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="carotte_.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Card title</h5>         
+                <p class="card-text">Savourez la simplicité et la bonté des carottes fraîches. Un incontournable dans chaque cuisine, une bouffée de fraîcheur à chaque bouchée !</p>
+                <button class="btn btn-primary">En savoir plus</button>
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="Pomme de terre.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Que ce soit en purée crémeuse, en gratin fondant, ou en accompagnement savoureux, nos pommes de terre sont la toile blanche parfaite pour vos créations culinaires.</p>
+                <button class="btn btn-primary">En savoir plus</button>
+              </div>
+            </div>
+          </div>
+
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="fraise.jpg" class="card-img-top" alt="...">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Cueillez la fraîcheur et la douceur avec nos fraises succulentes. Une invitation à la gourmandise, une expérience fruitée à savourer à tout moment !</p>
+              <button class="btn btn-primary">En savoir plus</button>
+            </div>
+          </div>
+        </div>
+      </div><br>
+      
+     <script src="index.js"></script>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; @BeYe Mouhamed / 2024 Votre Entreprise. Tous droits réservés.</p>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">Conditions d'utilisation</a>
+                    <a href="#">Contactez-nous</a>
+                    <a href="#"><img src="facebook.png" alt="Facebook Logo"></a>
+                    <a href="#"><img src="whatsapp.jpeg" alt="WhatsApp Logo"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

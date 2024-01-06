@@ -1,0 +1,113 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #3498db; /* Couleur de fond de la barre de navigation */
+    overflow: hidden;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère pour la barre de navigation */
+}
+
+.logo {
+    font-size: 1.5em;
+    color: #fff; /* Couleur du texte du logo */
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff; /* Couleur du texte des liens */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Transition pour une animation fluide */
+}
+
+.nav-links a:hover {
+    color: #2c3e50; /* Couleur au survol du lien */
+}
+
+.burger-menu {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #fff; /* Couleur du texte du menu burger */
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #2980b9; /* Couleur de fond pour les liens en mode mobile */
+        z-index: 1;
+        text-align: center;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+}
+
+p{
+    color: blue;
+}
+
+
+div.maclasse{
+    color: #2980b9;
+    text-align: center;
+}
+.content {
+    flex: 10;
+}
+
+
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Style pour les liens du footer */
+footer a {
+    color: white;
+    margin-right: 20px;
+}
+
+/* Style pour les logos dans le footer */
+footer img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.card {
+    margin-bottom: 20px;
+    background-color: #343a40; /* Couleur de fond foncée */
+    color: white; /* Couleur du texte blanc */
+    transition: background-color 0.3s; /* Transition pour une animation fluide */
+}
